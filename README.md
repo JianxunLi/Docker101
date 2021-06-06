@@ -12,3 +12,5 @@ Now that we’ve created our Dockerfile, let’s build our image. To do this, we
 
 The build command optionally takes a --tag flag. The tag is used to set the name of the image.
 
+To publish a port for our container, we’ll use the --publish flag (-p for short) on the docker run command. 
+
